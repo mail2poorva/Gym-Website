@@ -1,0 +1,110 @@
+// main colors
+$dark-purple: #68434f;
+$light-pink: #fdf7f7;
+$medium-pink: #f2d7d7;
+$reddish-pink: #db2a63;
+$light-grey: #e7e7e7;
+
+// Basic colors
+$black: #000;
+$white: #fff;
+
+//fonts
+$heading-font: "Libre Franklin", sans-serif;
+
+.contact {
+  height: 100vh;
+  background-color: $light-pink;
+  position: relative;
+
+  &-box-small {
+    position: absolute;
+    // background-color: $light-grey;
+    z-index: 1;
+    width: 600px;
+    // height: 268px;
+    margin-left: -270px;
+    margin-top: -25px;
+    transform: rotate(11deg);
+  }
+
+  &-box-main {
+    position: absolute;
+    background-color: $medium-pink;
+    z-index: 10;
+    width: 38em;
+    height: 38em;
+    margin-left: 41em;
+    margin-top: 3em;
+    font-family: $heading-font;
+    label {
+      position: absolute;
+      margin-left: 170px;
+      margin-top: 70px;
+      // padding: 50px;
+      // top: 100px;
+    }
+    &-input {
+      margin-left: 170px;
+      margin-top: 60px;
+      font-size: 20px;
+      outline: none;
+      padding-top: 15px;
+      padding-bottom: 4px;
+      border-bottom: 2px solid black;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      background-color: $medium-pink;
+    }
+    &-btn {
+      margin-left: 250px;
+      margin-top: 60px;
+      background-color: #fff;
+      border: 2px solid $reddish-pink;
+      padding: 7px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: $reddish-pink;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+      border: 2px solid $medium-pink;
+      background-color: $reddish-pink;
+      color: white;
+      padding: 10px 30px 10px 30px;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+      transition: color 200ms, background-color 200ms, border 200ms;
+      &:hover {
+        background-color: white;
+        border: 2px solid $reddish-pink;
+        color: $reddish-pink;
+      }
+      &:active {
+        background-color: #f7f7f7;
+      }
+    }
+
+    &-checkbox {
+      background-color: pink;
+      width: 17px;
+      height: 17px;
+      margin-left: 170px;
+      margin-top: 60px;
+    }
+
+    span {
+      position: absolute;
+      margin-top: 60px;
+      margin-left: 2px;
+    }
+  }
+
+  &-img {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    margin-left: 215px;
+    margin-top: 10em;
+    z-index: 10;
+  }
+}

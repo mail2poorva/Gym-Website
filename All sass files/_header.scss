@@ -1,0 +1,149 @@
+
+// main colors
+$dark-purple: #68434F;
+$light-pink: #FDF7F7;
+$medium-pink: #F2D7D7;
+$reddish-pink: #DB2A63;
+
+
+// Basic colors
+$black: #000;
+$white: #fff;
+
+
+//fonts
+$heading-font: 'Libre Franklin', sans-serif;
+
+
+
+// HEADER SECTION *****************************************
+
+.header{
+    position: relative;
+    height: 130vh;
+    overflow: hidden;
+
+    &-triangle{
+        
+    position: absolute;
+    width: 58em;
+    top: -158px;
+    right: -175px;
+        z-index: -1;
+    }
+
+
+
+    &-vector{
+        position: absolute;
+        right: 9.9em;
+        top: 7.2em;
+    }
+
+    &-heading{
+        margin-top: 15.7em;
+        margin-left: 12em;
+        // font-family: ;
+        &--one{
+            color: $reddish-pink;
+            font-family: $heading-font;
+            font-weight: 400;
+            font-size: 2.5em;
+        }
+        &--two{
+            margin-top: 10px;
+            color: $reddish-pink;
+            font-family: $heading-font;
+            font-weight: 800;
+            font-size: 2.5em;
+            span{
+                position: relative;
+                font-weight: 300;
+                z-index: 2;         
+                &::after{
+                    z-index: -1;
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 50%;
+                    top: 50%;
+                    left: 0;
+                    background-color: $medium-pink;
+                }
+            }
+        }
+    }
+
+
+    &-button{
+        // background-color: black;
+        display: inline-block;
+        font-family: $heading-font;
+        border: 2px solid $medium-pink;
+        background-color: $reddish-pink;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 27px;
+        padding-right: 27px;
+        text-decoration: none;
+        color: white;
+        margin-left: 13em;
+        margin-top: 2em;
+        box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+        transition: color 200ms, background-color 200ms, border 200ms;
+        &:hover{
+            background-color: white;
+            border: 2px solid $reddish-pink;
+            color: $reddish-pink;
+        }
+        &:active{
+            background-color: #f7f7f7;
+        }
+    }
+
+    &-coach{
+        z-index: 9;
+        position: relative;
+        margin-top: 120px;
+        background-color: white;
+        // box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+        width: 355px;
+        height: 140px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        transition: width 200ms;
+
+        &--coachImg{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        h3{
+            font-family: 'Roboto Condensed', sans-serif;
+            position: absolute;
+            top: 42px;
+            right: 50px;
+            font-weight: 600;
+        }
+
+        p{
+            font-family: 'Roboto Condensed', sans-serif;
+            position: absolute;
+            font-size: 14px;
+            color: gray;
+            top: 70px;
+            right: 35px;
+            width:130px;
+        }
+
+        &:hover{
+            width: 350px;
+        }
+    }
+
+}
+
+

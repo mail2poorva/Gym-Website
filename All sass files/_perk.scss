@@ -1,0 +1,216 @@
+// main colors
+$dark-purple: #68434F;
+$light-pink: #FDF7F7;
+$medium-pink: #F2D7D7;
+$reddish-pink: #DB2A63;
+
+
+// Basic colors
+$black: #000;
+$white: #fff;
+
+
+//fonts
+$heading-font: 'Libre Franklin', sans-serif;
+
+
+
+//perks ==========================
+
+.perks{
+    height: 150vh;
+    background-color: $dark-purple;
+    position: relative;
+
+    &-heading{
+        position: absolute;
+        color: $light-pink;
+        font-family: $heading-font;
+        font-size: 3.5em;
+        font-weight: 400;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &-1{
+        position: absolute;
+        width: 20%;
+        left: 290px;
+        top: 100px;
+
+        .imgContainer{
+            position: relative;
+            background-color: $light-pink;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            z-index: 1;
+
+            img{
+                position: absolute;
+                top: 37%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            span{
+                position:absolute;
+                z-index: 10;
+                color: $dark-purple;
+                top: 70%;
+                font-weight: 700;
+                font-size: 22px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        p{
+            position: absolute;
+            color: $medium-pink;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            left: 150px;
+            top: 200px;
+            width: 100%;
+        }
+    }
+
+    &-2{
+        position: absolute;
+        width: 20%;
+        right: 180px;
+        top: 240px;
+
+        .imgContainer{
+            position: relative;
+            background-color: $light-pink;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            z-index: 1;
+
+            img{
+                position: absolute;
+                top: 37%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            span{
+                position:absolute;
+                z-index: 10;
+                color: $dark-purple;
+                top: 70%;
+                font-weight: 700;
+                font-size: 22px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        p{
+            position: absolute;
+            color: $medium-pink;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            left: 150px;
+            top: 200px;
+            width: 100%;
+        }
+    }
+
+    &-3{
+        position: absolute;
+        width: 20%;
+        left: 150px;
+        bottom: 280px;
+
+        .imgContainer{
+            position: relative;
+            background-color: $light-pink;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            z-index: 1;
+
+            img{
+                position: absolute;
+                top: 37%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            span{
+                position:absolute;
+                z-index: 10;
+                color: $dark-purple;
+                top: 70%;
+                font-weight: 700;
+                font-size: 22px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        p{
+            position: absolute;
+            color: $medium-pink;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            left: 150px;
+            top: 200px;
+            width: 100%;
+        }
+    }
+
+    &-4{
+        position: absolute;
+        width: 20%;
+        right: 280px;
+        bottom: 150px;
+
+        .imgContainer{
+            position: relative;
+            background-color: $light-pink;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            z-index: 1;
+
+            img{
+                position: absolute;
+                top: 37%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            span{
+                position:absolute;
+                z-index: 10;
+                color: $dark-purple;
+                top: 70%;
+                font-weight: 700;
+                font-size: 22px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        p{
+            position: absolute;
+            color: $medium-pink;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            left: 150px;
+            top: 200px;
+            width: 100%;
+        }
+    }
+
+
+
+}
+
+

@@ -1,0 +1,46 @@
+@import "./All sass files/header";
+@import "./All sass files/welcome";
+@import "./All sass files/perk";
+@import "./All sass files/schedule";
+@import "./All sass files/grid";
+@import "./All sass files/contact";
+@import "./All sass files/notie";
+@import "./All sass files/footer";
+@import "./All sass files/navbar";
+
+
+
+// main colors
+$dark-purple: #68434F;
+$light-pink: #FDF7F7;
+$medium-pink: #F2D7D7;
+$reddish-pink: #DB2A63;
+
+
+// Basic colors
+$black: #000;
+$white: #fff;
+
+
+//fonts
+$heading-font: 'Libre Franklin', sans-serif;
+
+
+*,*::after,*::before{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+}
+
+body{
+    background-color: $light-pink;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+
+
+// main colors
+$dark-purple: #68434F;
+$light-pink: #FDF7F7;
+$medium-pink: #F2D7D7;
+$reddish-pink: #DB2A63;
+
+
+// Basic colors
+$black: #000;
+$white: #fff;
+
+
+//fonts
+$heading-font: 'Libre Franklin', sans-serif;
+
+
+.header{
+
+    &-main-heading{
+        color: $dark-purple;
+        font-family: $heading-font;
+        position: absolute;
+        font-size: 30px;
+        font-weight: 600;
+        left: 70px;
+        // margin-top: 100px;
+        top: 30px;
+    }
+
+    &-navbar{
+        left: 250px;
+        top: 40px;
+        position: absolute;
+        z-index: 10;
+        // margin-top: 40px;
+        margin-left: 500px;
+        font-family: $heading-font;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-li{
+           margin-right: 40px;
+            
+
+            a{
+                cursor: pointer;
+                font-family: 500;
+                color: $dark-purple;
+                text-decoration:none;
+            }
+        }
+    }
+}

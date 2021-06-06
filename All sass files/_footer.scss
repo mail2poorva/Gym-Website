@@ -1,0 +1,52 @@
+
+// main colors
+$dark-purple: #68434F;
+$light-pink: #FDF7F7;
+$medium-pink: #F2D7D7;
+$reddish-pink: #DB2A63;
+
+
+// Basic colors
+$black: #000;
+$white: #fff;
+
+
+//fonts
+$heading-font: 'Libre Franklin', sans-serif;
+
+
+
+
+
+//FOOTER************************************
+//====================================
+footer {
+    margin-top: 100px;
+    background-color: $dark-purple;
+    height: 20vh;
+    bottom: 0px;
+    padding-top: 50px;
+    .footer_components {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        p {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 1.1px;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            list-style: none;
+            li {
+                padding-right: 20px;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
