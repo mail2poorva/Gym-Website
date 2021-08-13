@@ -6,7 +6,7 @@ This is a single page website of Gym with online `time-table` of the different c
 
 ## Visit my website using the given link below:
 
-[Here is the Link](https://gym-website-1331b.web.app/)
+[Click here to see live Preview](https://gym-website-1331b.web.app/)
 
 
 ## **Overview video of my Website**
